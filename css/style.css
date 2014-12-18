@@ -1,0 +1,61 @@
+/* 
+    Created on : 11-Dec-2014, 15:56:28
+    Author     : NGUYEN Le Duc Tan
+*/
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 70%;
+}
+
+#panelControl {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#tablePanelControl {
+    text-align: center;
+    margin: auto;
+}
+
+td.left {
+    text-align: right;
+}
+
+td.right {
+    text-align: left;
+}
+
+#display {
+    width: 70%;
+    min-width: 500px;
+    /*min-height: 500px;*/
+    text-align: center;
+    margin: auto;
+}
+
+#info {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    z-index: 100;
+    display:block;
+}
+
+#info a, .button { 
+    color: #0078ff; 
+    font-weight: bold; 
+    text-decoration: underline; 
+    cursor: pointer 
+}
